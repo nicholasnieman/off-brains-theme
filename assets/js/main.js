@@ -137,14 +137,16 @@ jQuery(document).ready(function($){
     dots: true,
     arrows:false,
     infinite: false,
-    autoplay:false,
-    centerMode: true,
+    autoplay:true,
+    autoplaySpeed: 5000,
+    speed: 300,
+    centerMode: false,
     swipeToSlide: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     mobileFirst:true,
     swipe:true,
-    touchThreshold: 100,
+    touchThreshold: 1000,
     responsive: [
       {
         breakpoint: 700,
@@ -153,25 +155,29 @@ jQuery(document).ready(function($){
     ]
   });    
 
-  $('#design-grid').slick({
-    dots: true,
-    arrows:false,
-    infinite: false,
-    autoplay:false,
-    centerMode: true,
-    swipeToSlide: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    mobileFirst:true,
-    swipe:true,
-    touchThreshold: 100,
-    responsive: [
-      {
-        breakpoint: 700,
-        settings: "unslick"
-      }
-    ]
-  });  
+  if( viewportWidth <= 700) {
+    $('#design-grid').slick({
+      dots: true,
+      arrows:false,
+      infinite: false,
+      autoplay:true,
+      autoplaySpeed: 5000,
+      speed: 300,
+      centerMode: true,
+      swipeToSlide: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      mobileFirst:true,
+      swipe:true,
+      touchThreshold: 1000,
+      responsive: [
+        {
+          breakpoint: 700,
+          settings: "unslick"
+        }
+      ]
+    });
+  }
 
 });
 
