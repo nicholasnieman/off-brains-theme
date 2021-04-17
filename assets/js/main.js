@@ -136,7 +136,7 @@ jQuery(document).ready(function($){
   $('#service-slider').slick({
     dots: true,
     arrows:false,
-    infinite: false,
+    infinite: true,
     autoplay:true,
     autoplaySpeed: 5000,
     speed: 300,
@@ -159,7 +159,7 @@ jQuery(document).ready(function($){
     $('#design-grid').slick({
       dots: true,
       arrows:false,
-      infinite: false,
+      infinite: true,
       autoplay:true,
       autoplaySpeed: 5000,
       speed: 300,
