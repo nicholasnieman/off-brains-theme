@@ -5,7 +5,7 @@
 
 	<div class="slide-in section-heading clearfix"><h2>Our designs</h2></div>
 	
-	<div id="design-grid">
+	<div id="design-grid" class="slider">
 
 		<div id="design-1" class="slide-up design">
 			<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/1.jpg"/>
@@ -74,7 +74,13 @@
 <div id="design-modal">
 	<div id="design-modal-background"></div>
 	<div id="design-modal-content">
-		<span id="design-modal-close-icon"><?php echo file_get_contents( get_stylesheet_directory_uri() . '/assets/svg/close-icon.svg' ); ?></span>
+		<div id="page-viewer-heading">
+			<div id="page-viewer-branding">
+				<?php echo file_get_contents( get_stylesheet_directory_uri() . '/assets/svg/logo.svg' ); ?>
+			</div>
+			
+			<span id="design-modal-close-icon"><?php echo file_get_contents( get_stylesheet_directory_uri() . '/assets/svg/close-icon.svg' ); ?></span>
+		</div>
 		<div id="design-modal-img-container">
 			<img id="design-modal-img" src="">
 		</div>

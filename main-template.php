@@ -36,7 +36,7 @@ get_header();
 			<div class="slide-in section-heading clearfix"><h2>Work with us</h2></div>
 			<div id="calendar-text" class="slide-up width-container">
 				<h3>Schedule a Free 30 minute consultation</h3>
-				<p>Pick a date and time in the calendar below and we will send you a link to a Zoom meeting</p>
+				<p>Pick a date and time in the calendar below and we will send you a link to a Zoom meeting in less than 5 minutes</p>
 			</div>
 			<!-- Calendly inline widget begin -->
 			<div class="calendly-inline-widget" data-url="https://calendly.com/offbrains/off-brains-consultation-call?hide_event_type_details=1&amp;hide_gdpr_banner=1&amp;primary_color=444db7" style="min-width:320px;height:750px;"></div>
