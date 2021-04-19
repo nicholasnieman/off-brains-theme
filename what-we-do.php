@@ -30,7 +30,7 @@
 			<div class="service-container clearfix">
 				<div class="slide-up service-description service-description-left">
 					<h3>Custom Software Development & Integrations</h3>
-					<p>Expertly developed software solutions that improve practice efficiency by integrating the tools you already use and streamline processes</p>
+					<p>Expertly developed software solutions that improve practice efficiency by integrating the tools you already use and streamlining processes</p>
 				</div>
 				<div class="slide-up service-img service-img-right">
 					<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/3.png" />
