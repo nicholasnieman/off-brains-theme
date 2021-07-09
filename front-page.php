@@ -39,7 +39,7 @@ get_header();
 				<p>Pick a date and time in the calendar below and we will send you a link to a Zoom meeting in less than 5 minutes</p>
 			</div>
 			<!-- Calendly inline widget begin -->
-			<div class="calendly-inline-widget" data-url="https://calendly.com/offbrains/off-brains-consultation-call?hide_event_type_details=1&amp;hide_gdpr_banner=1&amp;primary_color=444db7" style="min-width:320px;height:750px;"></div>
+			<div class="calendly-inline-widget" data-url="https://calendly.com/off-brains/off-brains-consultation-call?hide_event_type_details=1&amp;hide_gdpr_banner=1&amp;primary_color=444db7" style="min-width:320px;height:750px;"></div>
 			<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async=""></script>
 			<!-- Calendly inline widget end -->
 		</div>
